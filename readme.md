@@ -1,6 +1,6 @@
 # docker-centos7-nodebrew
 
-nodebrewをインストールしたCentOS7のイメージ
+nodebrewをインストールしたCentOS7のDockerfileです。
 
 ## イメージをビルドをするコマンドサンプル
 
