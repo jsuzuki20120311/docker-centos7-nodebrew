@@ -15,4 +15,3 @@ RUN yum -y install which && \
 ENV PATH $HOME/.nodebrew/current/bin:$PATH
 
 CMD [ "/bin/bash" ]
-
