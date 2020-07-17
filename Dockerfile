@@ -12,7 +12,7 @@ RUN yum -y install which && \
     ~/.nodebrew/current/bin/nodebrew install-binary $NODE_VERSION && \
     ~/.nodebrew/current/bin/nodebrew use $NODE_VERSION
 
-ENV PATH $HOME/.nodebrew/current/bin:$PATH
+ENV PATH /root/.nodebrew/current/bin:$PATH
 
 CMD [ "/bin/bash" ]
 

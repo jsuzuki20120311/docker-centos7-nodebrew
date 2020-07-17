@@ -18,6 +18,11 @@ $ docker build --tag nodebrew --build-arg NODE_VERSION=v8.10.0 ./docker-centos7-
 $ docker run -it -d --name nodebrew -p 3000:3000 -v ~/src:/root/src nodebrew /bin/bash
 ```
 
+```
+$ docker run -it -d --name nodebrew -p 3000:3000 -v //c/Users/user-name/src:/root/src docker-centos7-nodebrew /bin/bash
+```
+
+
 ## コンテナを起動するコマンド
 
 ```
